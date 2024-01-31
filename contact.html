@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contato</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Sobre Nós</a>
+            </li>
+            <li>
+                <a href="./peças.html">Peças</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Informações de Contato</h2>
+            <p>Entre em contato conosco para mais informações ou para agendar uma visita.</p>
+            <p>Email: grupokatu@gmail.com</p>
+            <p>Telefone: (11) 95686-8198</p>
+        </section>
+
+        <section>
+            <h2>Endereço</h2>
+            <p>Rua Embu das artes</p>
+            <p>Bairro Itatuba</p>
+            <p>Cidade, Embu das Artes</p>
+            <p>CEP: 06845-070</p>
+        </section>
+
+        <section>
+            <h2>Formulário de Contato</h2>
+            <form action="/enviar-contato" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Katu. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
