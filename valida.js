@@ -1,15 +1,51 @@
 const usuarios = [
     {
-        login: "Victor",
-        pass: "Victor"
+        login: "Yuni",
+        pass: "Yuni"
     },
     {
         login: "Isadora",
         pass: "Isadora"
     },
     {
+        login: "Nathaly",
+        pass: "Nathaly"
+    },
+    {
+        login: "Felipe",
+        pass: "Felipe"
+    },
+    {
+        login: "Maria",
+        pass: "Maria"
+    },
+    {
+        login: "Ana",
+        pass: "Ana"
+    },
+    {
+        login: "Anna",
+        pass: "Anna"
+    },
+    {
+        login: "Vitoria",
+        pass: "Vitoria"
+    },
+    {
+        login: "Davi",
+        pass: "Davi"
+    },
+    {
+        login: "Andy",
+        pass: "Andy"
+    },
+    {
         login: "Admin",
         pass: "Admin"
+    },
+    {
+        login: "João",
+        pass: "João"
     },
 ]
 
