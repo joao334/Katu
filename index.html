@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store" />
     <title>Grupo Katu</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -19,6 +20,23 @@
                 <li>
                     <a href="contact.html">Contato</a>
                 </li>
+                <form id="logoutForm" action="Login.html" method="post">
+                    <!-- Adicione outros campos ou informações necessárias aqui, se aplicável -->
+            
+                    <input type="submit" value="Logout">
+                </form>
+            
+                <script>
+                    document.getElementById("logoutForm").addEventListener("submit", function(event) {
+                        // Impede o envio padrão do formulário
+                        event.preventDefault();
+            
+                        // Realiza o logout (pode ser uma chamada AJAX para o servidor, se necessário)
+            
+                        // Limpa o histórico de navegação
+                        window.location.replace("Login.html");
+                    });
+                </script>
             </ul>
         </nav>
     
@@ -62,10 +80,12 @@
                         <img src="./img/WhatsApp-Logo.png"></img>
                         <p>Whatsapp</p>
             </a>
+            
+    
         </footer>
-        <footer>
+        <footer1>
             &copy; 2024 Katu. Todos os direitos reservados.
-        </footer>
+        </footer1>
     </div>
     
 </body>
